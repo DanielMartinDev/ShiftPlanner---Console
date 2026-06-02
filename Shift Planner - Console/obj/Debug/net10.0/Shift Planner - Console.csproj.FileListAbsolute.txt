@@ -1,0 +1,15 @@
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.AssemblyInfo.cs
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.sourcelink.json
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\bin\Debug\net10.0\Shift Planner - Console.exe
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\bin\Debug\net10.0\Shift Planner - Console.deps.json
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\bin\Debug\net10.0\Shift Planner - Console.runtimeconfig.json
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\bin\Debug\net10.0\Shift Planner - Console.dll
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\bin\Debug\net10.0\Shift Planner - Console.pdb
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.dll
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\refint\Shift Planner - Console.dll
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.pdb
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\Shift Planner - Console.genruntimeconfig.cache
+C:\Users\danie\Documents\Development\C# Projects\ShiftPlanner - Console\Shift Planner - Console\obj\Debug\net10.0\ref\Shift Planner - Console.dll
