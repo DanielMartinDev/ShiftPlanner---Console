@@ -9,7 +9,9 @@ namespace Shift_Planner___Console.Classes
     {
         private readonly List<Employee> employees;
         private readonly List<Shift> shifts;
-
+        private int _nextEmployeeID = 1;
+        private int _nextShiftID = 1;
+        
         public ShiftManager()
         {
             employees = new List<Employee>();
@@ -20,6 +22,7 @@ namespace Shift_Planner___Console.Classes
 
         public void AddEmployee(Employee employee)
         {
+            employee.EmployeeID = _nextEmployeeID++;
             employees.Add(employee);
         }
 
@@ -45,6 +48,7 @@ namespace Shift_Planner___Console.Classes
         /* Shift functions */
         public void CreateShift(Shift shift)
         {
+            shift.ShiftID = _nextShiftID++;
             shifts.Add(shift);
         }
 
