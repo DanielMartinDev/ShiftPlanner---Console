@@ -1,0 +1,2 @@
+ID = 0, Name = Daniel, StartDate = 02/02/2026 00:00:00, Role = Customer_Assistant
+ID = 1, Name = Bob, StartDate = 02/02/2026 00:00:00, Role = Customer_Assistant

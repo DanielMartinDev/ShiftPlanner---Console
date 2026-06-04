@@ -1,0 +1,1 @@
+ID = 1, EmployeeID = 0, StartTime = 04/06/2026 05:00:00, EndTime = 04/06/2026 12:00:00, BreakDuration = 00:15:00

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|c:\\users\\danie\\documents\\development\\c# projects\\shiftplanner - console\\shift planner - console\\classes\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|solutionrelative:classes\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|c:\\users\\danie\\documents\\development\\c# projects\\shiftplanner - console\\shift planner - console\\classes\\shiftmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|solutionrelative:classes\\shiftmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|c:\\users\\danie\\documents\\development\\c# projects\\shiftplanner - console\\shift planner - console\\classes\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|solutionrelative:classes\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20FBA006-2F38-4226-D4B8-D98AFF04A858}|Shift Planner - Console.csproj|c:\\users\\danie\\documents\\development\\c# projects\\shiftplanner - console\\shift planner - console\\objects\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,28 +34,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\MainMenu.cs",
               "RelativeDocumentMoniker": "Classes\\MainMenu.cs",
               "ToolTip": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\MainMenu.cs",
               "RelativeToolTip": "Classes\\MainMenu.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAYwIQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAwwKEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T20:37:51.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShiftManager.cs",
-              "DocumentMoniker": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\ShiftManager.cs",
-              "RelativeDocumentMoniker": "Classes\\ShiftManager.cs",
-              "ToolTip": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\ShiftManager.cs",
-              "RelativeToolTip": "Classes\\ShiftManager.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:53:55.598Z",
               "EditorCaption": ""
             },
             {
@@ -68,8 +55,7 @@
               "RelativeToolTip": "Objects\\Shift.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:33:13.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:33:13.677Z"
             },
             {
               "$type": "Document",
@@ -81,8 +67,7 @@
               "RelativeToolTip": "Objects\\Employee.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T18:22:28.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T18:22:28.202Z"
             },
             {
               "$type": "Document",
@@ -95,6 +80,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T08:26:44.17Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShiftManager.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\ShiftManager.cs",
+              "RelativeDocumentMoniker": "Classes\\ShiftManager.cs",
+              "ToolTip": "C:\\Users\\danie\\Documents\\Development\\C# Projects\\ShiftPlanner - Console\\Shift Planner - Console\\Classes\\ShiftManager.cs",
+              "RelativeToolTip": "Classes\\ShiftManager.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwGkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T18:53:55.598Z",
+              "EditorCaption": ""
             }
           ]
         }

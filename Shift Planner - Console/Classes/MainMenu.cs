@@ -14,6 +14,7 @@ namespace Shift_Planner___Console.Classes
         public MainMenu()
         {
             _manager = new ShiftManager();
+            _manager.LoadData("employees.txt", "shifts.txt");
         }
 
         public void DisplayMenu()
@@ -67,8 +68,7 @@ namespace Shift_Planner___Console.Classes
                     WaitForKeyPress();
                     break;
                 case 4:
-                    ListShifts();
-                    WaitForKeyPress();
+                    ViewEmployeeSchedule();
                     break;
                 case 5:
                     Console.Write("Choose Employee to delete: ");
@@ -80,6 +80,8 @@ namespace Shift_Planner___Console.Classes
                     }
                     break;
                 case 6:
+                    _manager.ListShifts();
+
                     Console.Write("Choose Shift to delete: ");
                     string shiftID = Console.ReadLine() ?? string.Empty;
                     if (int.TryParse(shiftID, out int shiftToDelete))
@@ -90,6 +92,8 @@ namespace Shift_Planner___Console.Classes
                     Console.WriteLine();
                     break;
                 case 7:
+                    Console.WriteLine("Saving Data...");
+                    _manager.SaveData("employees.txt", "shifts.txt");
                     Console.WriteLine("Exiting...");
                     Environment.Exit(0);
                     break;
@@ -155,10 +159,42 @@ namespace Shift_Planner___Console.Classes
                 if (int.TryParse(breakInput, out int breakTime))
                     shift.BreakDuration = TimeSpan.FromMinutes(breakTime);
 
+                Console.WriteLine("Choose day to schedule shift for: ");
+                Console.WriteLine("1. Monday \n2. Tuesday \n3. Wednesday \n4. Thursday \n5. Friday \n6. Saturday \n7. Sunday");
+                string day = Console.ReadLine() ?? "0";
+
+                if(int.TryParse(day, out int chosenDay))
+                {
+                    switch (chosenDay) {
+                        case 1:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Monday;
+                            break;
+                        case 2:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Tuesday;
+                            break;
+                        case 3:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Wednesday;
+                            break;
+                        case 4:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Thursday;
+                            break;
+                        case 5:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Friday;
+                            break;
+                        case 6:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Saturday;
+                            break;
+                        case 7:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Sunday;
+                            break;
+                        default:
+                            shift.WorkingDay = Shift.DayOfTheWeek.Monday;
+                            break;
+                    }
+                }
+
                 _manager.CreateShift(shift);
             }
-
-            ListShifts();
         }
 
         private void ListEmployees()
@@ -166,9 +202,19 @@ namespace Shift_Planner___Console.Classes
             _manager.ListEmployees();
         }
 
-        private void ListShifts()
+        private void ViewEmployeeSchedule()
         {
-            _manager.ListShifts();
+            ListEmployees();
+
+            Console.WriteLine("Enter employee ID you would like to view shifts for: ");
+            string input = Console.ReadLine() ?? "0";
+            
+            if (int.TryParse(input, out int option))
+            {
+                _manager.ViewEmployeeSchedule(option);
+            }
+
+            WaitForKeyPress();
         }
 
         /*  Utilities */
